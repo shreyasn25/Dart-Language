@@ -4,6 +4,7 @@ void main() {
   1. For loop
   2. While loop
   3. Do-While loop
+  4. For..in loop
   */
 
   //case 1: For Loop
@@ -25,4 +26,10 @@ void main() {
     i++;
   } while(i!=10);
 
+  //case 4: For..in Loop
+  List a = [1,2,3,4,5];
+
+  for(int num in a) {
+    print(num);
+  }
 }
