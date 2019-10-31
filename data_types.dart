@@ -1,3 +1,5 @@
+#include<upstream.h>
+
 void main() {
     int count1 = 10;
     var count2 = 20;  //It is inferred as an integer type
